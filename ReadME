@@ -1,0 +1,9 @@
+first run npm install
+Application Setup 
+Main Routes in App Component
+Two Pages (signin and home) in pages folder
+route for sign in (/)
+route for home (/home)
+can view and add notes by clicking add note button in home page
+pagination done
+

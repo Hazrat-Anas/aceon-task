@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.border-bottom-header {
+  border-bottom: 1px solid #c9c1c1;
+}
+
+.th-row {
+  background-color: #F4F4F9;
+}
+
+th {
+  padding: 8px 16px;
+}
+
+.th-row th {
+  text-transform: uppercase;
+}
+
+.table {
+  font-size: 16px;
+}
+
+th, td {
+  font-size: 1em;
+}
+
+.sign-in-card {
+
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.note-model {
+  min-width: 5vw;
+  min-height: 50vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.full-page {
+  min-height: 100vh;
+}
+
+.pagination>ul {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  flex-grow: 1;
+
+}
+
+@media(max-width:992px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:768px) {
+  .table {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:560px) {
+  .table {
+    font-size: 8px;
+
+  }
+}
+
+@media(max-width:448px) {
+  .table {
+    font-size: 6px;
+
+  }
+}

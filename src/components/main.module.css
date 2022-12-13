@@ -1,0 +1,14 @@
+.auth_button {
+    background-color: #4F46F8;
+    color: white;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    font-weight: 500;
+}
+
+.add_note_button {
+    background-color: hsla(243, 93%, 33%, 0.406);
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
